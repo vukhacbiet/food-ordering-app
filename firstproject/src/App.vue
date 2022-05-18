@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import MyTemp from './components/mytemplate.vue'
+import Template from './components/template.vue'
 
 export default {
   name: 'App',
   components: {
-    MyTemp
+    Template // eslint-disable-line vue/no-unused-components
   }
 }
 </script>
