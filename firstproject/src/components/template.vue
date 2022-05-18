@@ -13,35 +13,35 @@ export default {
             
         }
     },
-    // Lifecycles
-    beforeCreate() {
-        // functions or methods will come here which we want to run before compile template
-        alert('before created')
-    },
-    created() {
-        // Once the Instance gets initialized and we want to run some functions before mount then they will come here
-        alert('created')
-    },
-    beforeMount() {
-        // Same as created lifecycle hook
-        alert('before mounted')
-    },
-    mounted() {
-        // ONce instance gets mounted on screen then actions to perform will come here
-        alert('mounted')
-    },
-    beforeUpdate() {
-        // Same as mounted lifecycle hook
-        alert('before update')
-    },
-    updated() {
-        alert('updated')
-    },
-    methods: {
-        updateData() {
-            this.string = 'Updated Data'
-        }
-    }
+    // // Lifecycles
+    // beforeCreate() {
+    //     // functions or methods will come here which we want to run before compile template
+    //     alert('before created')
+    // },
+    // created() {
+    //     // Once the Instance gets initialized and we want to run some functions before mount then they will come here
+    //     alert('created')
+    // },
+    // beforeMount() {
+    //     // Same as created lifecycle hook
+    //     alert('before mounted')
+    // },
+    // mounted() {
+    //     // ONce instance gets mounted on screen then actions to perform will come here
+    //     alert('mounted')
+    // },
+    // beforeUpdate() {
+    //     // Same as mounted lifecycle hook
+    //     alert('before update')
+    // },
+    // updated() {
+    //     alert('updated')
+    // },
+    // methods: {
+    //     updateData() {
+    //         this.string = 'Updated Data'
+    //     }
+    // }
 }
 </script>
 

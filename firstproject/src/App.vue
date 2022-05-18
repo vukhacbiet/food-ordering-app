@@ -4,6 +4,10 @@
   <ConditionalRendering/>
   <ListRendering/>
   <DynamicComponent/>
+  <hr>
+  <router-link to="/firstroute">Go To Router</router-link>
+  <hr>
+  <router-view></router-view>
 </div>
 </template>
 
