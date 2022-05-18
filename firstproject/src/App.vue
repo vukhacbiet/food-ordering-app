@@ -13,7 +13,7 @@ export default {
   name: 'App',
   components: {
     Template, // eslint-disable-line vue/no-unused-components
-    ConditionalRendering
+    ConditionalRendering,
   }
 }
 </script>
