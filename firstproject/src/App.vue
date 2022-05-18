@@ -3,6 +3,7 @@
   <Template/>
   <ConditionalRendering/>
   <ListRendering/>
+  <DynamicComponent/>
 </div>
 </template>
 
@@ -10,6 +11,8 @@
 import Template from './components/template.vue'
 import ConditionalRendering from './components/conditionalrendering.vue'
 import ListRendering from './components/ListRendering.vue'
+import DynamicComponent from './components/dynamiccomponent.vue'
+
 
 export default {
   name: 'App',
@@ -17,6 +20,7 @@ export default {
     Template, // eslint-disable-line vue/no-unused-components
     ConditionalRendering,
     ListRendering,
+    DynamicComponent,
   }
 }
 </script>
