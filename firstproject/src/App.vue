@@ -1,16 +1,19 @@
 <template>
 <div>
   <Template/>
+  <ConditionalRendering/>
 </div>
 </template>
 
 <script>
 import Template from './components/template.vue'
+import ConditionalRendering from './components/conditionalrendering.vue'
 
 export default {
   name: 'App',
   components: {
-    Template // eslint-disable-line vue/no-unused-components
+    Template, // eslint-disable-line vue/no-unused-components
+    ConditionalRendering
   }
 }
 </script>

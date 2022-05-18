@@ -35,7 +35,6 @@ export default {
         alert('before update')
     },
     updated() {
-        //
         alert('updated')
     },
     methods: {
