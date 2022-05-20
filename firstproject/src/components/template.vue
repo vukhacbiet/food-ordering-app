@@ -47,7 +47,7 @@ export default {
 
 <style>
 #heading{
-    color: yellow;
+    color: red;
     margin-top: 200px;
 }
 </style>
