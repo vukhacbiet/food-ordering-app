@@ -1,12 +1,13 @@
 <template>
 <div>
-  <!-- <Template/> -->
-  <!-- <ConditionalRendering/>
+  <Template/>
+  <ConditionalRendering/>
   <ListRendering/>
-  <DynamicComponent/> -->
+  <DynamicComponent/> 
   <DataTable/>
   <Chart/>
-  <Forms/>
+  <Forms/> 
+  <Header/>
   <hr>
   <component :is="componentId"></component>
   <router-link to="/firstroute">Go To Router</router-link><br>
@@ -30,19 +31,21 @@ import Chart from './components/Chart.vue'
 import VUEX from './components/vuex.vue'
 import { mapActions } from 'vuex'
 import Forms from './components/forms.vue'
+import Header from './components/header.vue'
 
 
 
 export default {
   name: 'App',
-  components: {
-    Template, // eslint-disable-line vue/no-unused-components
+  components: { 
     ConditionalRendering,
     ListRendering,
     DynamicComponent,
     DataTable,
     VUEX,
-    Forms
+    Forms,
+    Template, // eslint-disable-line vue/no-unused-components
+    Header
   },
   created() {
     this.fetchDummyData
